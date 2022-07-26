@@ -1,0 +1,29 @@
+* {
+  background-color: rgb(76, 107, 97);
+}
+.heading {
+  border-collapse: collapse;
+  width: 100%;
+}
+.heading td,
+.heading th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 64px;
+}
+.heading tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.heading tr:hover {
+  background-color: #ddd;
+}
+.heading th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+td{
+    color: yellow;
+}
